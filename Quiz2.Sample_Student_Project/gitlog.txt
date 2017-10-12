@@ -1,0 +1,150 @@
+Script started on Thu 12 Oct 2017 01:55:18 PM EDT
+ahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ git log --[Kstat
+fatal: unrecognized argument: -stat
+ahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ git log -stat-stat
+[?1h=
+[33mcommit 8e06d5856b05be3a2e2795ac2b5a4a0f066975ef[m[m
+Author: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 13:52:23 2017 -0400[m
+[m
+     revised makefile[m
+[m
+ Quiz2.Sample_Student_Project/index.html     | 2427 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ Quiz2.Sample_Student_Project/index.html.bak | 2427 [32m++++++++++++++++++++++++++++++++++++++++++++++++[m[m
+ Quiz2.Sample_Student_Project/makefile       |   21 [32m+[m[31m-[m[m
+ Quiz2.Sample_Student_Project/output         |  Bin [31m0[m -> [32m36736[m bytes[m
+ 4 files changed, 4870 insertions(+), 5 deletions(-)[m
+[m
+[33mcommit 5f6b1570455ae49c7b7020a10ae2f9a287c97372[m[m
+Author: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 11:41:03 2017 -0400[m
+[m
+     deleted makefile and added new one, as well as revised it[m
+[m
+ Quiz2.Sample_Student_Project/make     | 22 [31m----------------------[m[m
+ Quiz2.Sample_Student_Project/makefile | 23 [32m+++++++++++++++++++++++[m[m
+ 2 files changed, 23 insertions(+), 22 deletions(-)[m
+[m
+[33mcommit c5a17d340ba97f414a5494bdaf94ed040e7be5c9[m[m
+Author: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 11:35:03 2017 -0400[m
+[m
+     added makefile[m
+[m
+ Quiz2.Sample_Student_Project/make | 22 [32m++++++++++++++++++++++[m[m
+ 1 file changed, 22 insertions(+)[m
+[m
+[33mcommit 3a0bf4b8c61c50c2957015d4241bf13fc6eebd84[m[m
+Author: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 11:29:12 2017 -0400[m
+[m
+     revised file for doxygen[m
+[m
+ Quiz2.Sample_Student_Project/college.h                           |   10 [32m+[m[31m-[m[m
+ Quiz2.Sample_Student_Project/course.h                            |   12 [32m+[m[m
+ Quiz2.Sample_Student_Project/node.h                              |    8 [32m+[m[m
+ Quiz2.Sample_Student_Project/tarray.h                            |  123 [32m++[m[31m-[m[m
+ quiz2_workingdirectory/html/annotated.html                       |   81 [32m++[m[m
+ quiz2_workingdirectory/html/bc_s.png                             |  Bin [31m0[m -> [32m676[m bytes[m
+ quiz2_workingdirectory/html/bdwn.png                             |  Bin [31m0[m -> [32m147[m bytes[m
+:[K
+[K quiz2_workingdirectory/html/class_college-members.html           |   87 [32m++[m[m
+ quiz2_workingdirectory/html/class_college.html                   |  114 [32m++[m[m
+ quiz2_workingdirectory/html/class_tarray-members.html            |   82 [32m++[m[m
+ quiz2_workingdirectory/html/class_tarray.html                    |  165 [32m+++[m[m
+ quiz2_workingdirectory/html/classcourse-members.html             |   90 [32m++[m[m
+ quiz2_workingdirectory/html/classcourse.html                     |  123 [32m+++[m[m
+ quiz2_workingdirectory/html/classes.html                         |   85 [32m++[m[m
+ quiz2_workingdirectory/html/classnode-members.html               |   83 [32m++[m[m
+ quiz2_workingdirectory/html/classnode.html                       |  108 [32m++[m[m
+ quiz2_workingdirectory/html/closed.png                           |  Bin [31m0[m -> [32m132[m bytes[m
+ quiz2_workingdirectory/html/college_8h.html                      |   98 [32m++[m[m
+ quiz2_workingdirectory/html/college_8h_source.html               |   82 [32m++[m[m
+ quiz2_workingdirectory/html/course_8h.html                       |  105 [32m++[m[m
+ quiz2_workingdirectory/html/course_8h_source.html                |   78 [32m++[m[m
+ .../html/dir_1ba8518184aec8fbd244425d9717e05d.html               |   94 [32m++[m[m
+ quiz2_workingdirectory/html/doc.png                              |  Bin [31m0[m -> [32m746[m bytes[m
+ quiz2_workingdirectory/html/doxygen.css                          | 1596 [32m+++++++++++++++++++++++++++[m[m
+ quiz2_workingdirectory/html/doxygen.png                          |  Bin [31m0[m -> [32m3779[m bytes[m
+ quiz2_workingdirectory/html/dynsections.js                       |   97 [32m++[m[m
+ quiz2_workingdirectory/html/files.html                           |   83 [32m++[m[m
+ quiz2_workingdirectory/html/folderclosed.png                     |  Bin [31m0[m -> [32m616[m bytes[m
+ quiz2_workingdirectory/html/folderopen.png                       |  Bin [31m0[m -> [32m597[m bytes[m
+ quiz2_workingdirectory/html/functions.html                       |   80 [32m++[m[m
+:[K
+[K:[K[H[2J[HAuthor: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 11:35:03 2017 -0400[m
+[m
+     added makefile[m
+[m
+ Quiz2.Sample_Student_Project/make | 22 [32m++++++++++++++++++++++[m[m
+ 1 file changed, 22 insertions(+)[m
+[m
+[33mcommit 3a0bf4b8c61c50c2957015d4241bf13fc6eebd84[m[m
+Author: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 11:29:12 2017 -0400[m
+[m
+     revised file for doxygen[m
+[m
+ Quiz2.Sample_Student_Project/college.h                           |   10 [32m+[m[31m-[m[m
+ Quiz2.Sample_Student_Project/course.h                            |   12 [32m+[m[m
+ Quiz2.Sample_Student_Project/node.h                              |    8 [32m+[m[m
+ Quiz2.Sample_Student_Project/tarray.h                            |  123 [32m++[m[31m-[m[m
+ quiz2_workingdirectory/html/annotated.html                       |   81 [32m++[m[m
+ quiz2_workingdirectory/html/bc_s.png                             |  Bin [31m0[m -> [32m676[m bytes[m
+ quiz2_workingdirectory/html/bdwn.png                             |  Bin [31m0[m -> [32m147[m bytes[m
+:[K
+[K:[K
+[K:[K[H[2J[HAuthor: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 11:35:03 2017 -0400[m
+[m
+     added makefile[m
+[m
+ Quiz2.Sample_Student_Project/make | 22 [32m++++++++++++++++++++++[m[m
+ 1 file changed, 22 insertions(+)[m
+[m
+[33mcommit 3a0bf4b8c61c50c2957015d4241bf13fc6eebd84[m[m
+Author: Your Name <ahong@pu1.cs.ohiou.edu>[m
+Date:   Thu Oct 12 11:29:12 2017 -0400[m
+[m
+     revised file for doxygen[m
+[m
+ Quiz2.Sample_Student_Project/college.h                           |   10 [32m+[m[31m-[m[m
+ Quiz2.Sample_Student_Project/course.h                            |   12 [32m+[m[m
+ Quiz2.Sample_Student_Project/node.h                              |    8 [32m+[m[m
+ Quiz2.Sample_Student_Project/tarray.h                            |  123 [32m++[m[31m-[m[m
+ quiz2_workingdirectory/html/annotated.html                       |   81 [32m++[m[m
+ quiz2_workingdirectory/html/bc_s.png                             |  Bin [31m0[m -> [32m676[m bytes[m
+ quiz2_workingdirectory/html/bdwn.png                             |  Bin [31m0[m -> [32m147[m bytes[m
+ quiz2_workingdirectory/html/class_college-members.html           |   87 [32m++[m[m
+ quiz2_workingdirectory/html/class_college.html                   |  114 [32m++[m[m
+ quiz2_workingdirectory/html/class_tarray-members.html            |   82 [32m++[m[m
+ quiz2_workingdirectory/html/class_tarray.html                    |  165 [32m+++[m[m
+ quiz2_workingdirectory/html/classcourse-members.html             |   90 [32m++[m[m
+ quiz2_workingdirectory/html/classcourse.html                     |  123 [32m+++[m[m
+ quiz2_workingdirectory/html/classes.html                         |   85 [32m++[m[m
+ quiz2_workingdirectory/html/classnode-members.html               |   83 [32m++[m[m
+ quiz2_workingdirectory/html/classnode.html                       |  108 [32m++[m[m
+ quiz2_workingdirectory/html/closed.png                           |  Bin [31m0[m -> [32m132[m bytes[m
+ quiz2_workingdirectory/html/college_8h.html                      |   98 [32m++[m[m
+ quiz2_workingdirectory/html/college_8h_source.html               |   82 [32m++[m[m
+ quiz2_workingdirectory/html/course_8h.html                       |  105 [32m++[m[m
+ quiz2_workingdirectory/html/course_8h_source.html                |   78 [32m++[m[m
+ .../html/dir_1ba8518184aec8fbd244425d9717e05d.html               |   94 [32m++[m[m
+ quiz2_workingdirectory/html/doc.png                              |  Bin [31m0[m -> [32m746[m bytes[m
+ quiz2_workingdirectory/html/doxygen.css                          | 1596 [32m+++++++++++++++++++++++++++[m[m
+ quiz2_workingdirectory/html/doxygen.png                          |  Bin [31m0[m -> [32m3779[m bytes[m
+ quiz2_workingdirectory/html/dynsections.js                       |   97 [32m++[m[m
+ quiz2_workingdirectory/html/files.html                           |   83 [32m++[m[m
+ quiz2_workingdirectory/html/folderclosed.png                     |  Bin [31m0[m -> [32m616[m bytes[m
+ quiz2_workingdirectory/html/folderopen.png                       |  Bin [31m0[m -> [32m597[m bytes[m
+:[K
+[K[?1l>
+[1]+  Stopped                 git log --stat
+ahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ 
+[Kahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ exit
+There are stopped jobs.
+ahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ 
+[Kahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ exit
+
+Script done on Thu 12 Oct 2017 01:57:52 PM EDT

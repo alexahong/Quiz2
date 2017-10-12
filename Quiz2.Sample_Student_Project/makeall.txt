@@ -1,0 +1,19 @@
+Script started on Thu 12 Oct 2017 01:58:34 PM EDT
+ahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ make all
+g++ -c collegemain.cc course.h node.h college.h
+g++ -c college.cc college.h
+g++ -c course.cc course.h
+g++ collegemain.o college.o course.o -o build
+tar cvzf archieve_file.tar.gz makefile college.h.gch course.h.gch node.h.gch collegemain.o college.o course.o node.h tarray.h
+makefile
+college.h.gch
+course.h.gch
+node.h.gch
+collegemain.o
+college.o
+course.o
+node.h
+tarray.h
+ahong@pu1:~/cs3560/quiz2/Quiz2/Quiz2.Sample_Student_Project$ exit
+
+Script done on Thu 12 Oct 2017 01:58:52 PM EDT
