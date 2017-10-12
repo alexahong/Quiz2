@@ -16,7 +16,8 @@ course.o: course.cc course.h
 clean:
 	rm *.o output
 
-
 doc:
 	doxygen -g index.html
 	doxygen index.html
+
+
