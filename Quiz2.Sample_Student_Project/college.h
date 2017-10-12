@@ -1,3 +1,11 @@
+/** @file college.h
+* @brief
+* this is the header file for college.h that will load all classes and hours into a file
+* and can also remove classes.
+* it will determine what your GPA is from your grades and credit hours.
+* @author Matthew Aberegg
+*/
+
 //********************
 //Matthew Aberegg
 //Project 3
