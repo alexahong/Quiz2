@@ -1,7 +1,7 @@
-all: doc output 
+all: build doczip 
 
-output: collegemain.o college.o course.o 
-	g++ collegemain.o college.o course.o -o output
+build: collegemain.o college.o course.o 
+	g++ collegemain.o college.o course.o -o build
 
 collegemain.o: collegemain.cc course.h node.h college.h
 	g++ -c collegemain.cc course.h node.h college.h
@@ -13,11 +13,22 @@ college.o: college.cc college.h
 course.o: course.cc course.h
 	g++ -c course.cc course.h
 
-clean:
-	rm *.o output
+
+doczip:
+	tar cvzf archieve_file.tar.gz makefile college.h.gch course.h.gch node.h.gch collegemain.o college.o course.o node.h tarray.h
+
+
+myexe:
+	./build
 
 doc:
 	doxygen -g index.html
 	doxygen index.html
+
+
+clean:
+	rm -rf *.o a.out build college.h.gch course.h.gch node.h.gch html latex archieve_file.tar.gz
+
+
 
 
